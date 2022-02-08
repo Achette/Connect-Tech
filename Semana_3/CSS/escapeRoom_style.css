@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  transition: all 2s ease-in;
+  background-color: #0f110f;
+}
+
+.header-container {
+  max-width: 100vw;
+  height: 20rem;
+  background-image: url(/IMAGE/movies/ER.png);
+  background-size: cover;
+  background-position-y: -22rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.menu-nav-content {
+  padding-top: 20rem;
+  background-color: #0f110f;
+  width: 140rem;
+  margin: 0 auto;
+}
+
+.menu-nav-content ul {
+    list-style: none; 
+}
+
+.menu-nav-content ul li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.section-container {
+  min-height: 100vh;
+  background-color: #0f110f;
+}
+
+.section-content {
+  max-width: 140rem;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.section-content h1 {
+  color: white;
+  font-size: 3.5rem;
+}
+
+.movie-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  gap: 2.5rem;
+}
+
+.card1 img {
+  padding-top: 1.5rem;
+  height: 40rem;
+}
+
+.card2 p {
+  color: white;
+  font-size: 1.6rem;
+}
+
+.card2 a {
+  background-color: #b80d0d;
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+}
+
+.card2 a:hover {
+  background-color: #f11616;
+}

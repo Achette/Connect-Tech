@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  transition: all 2s ease-in;
+}
+
+.menu-container {
+  color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  flex-direction: row;
+}
+
+.main-content {
+  max-width: 135rem;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+}
+
+.menu-container a img {
+  height: 5.5rem;
+  display: flex;
+}
+
+.menu-container a img:hover {
+  transform: scale(1.1);
+}
+
+.menu-container nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu-content ul li a {
+  display: block;
+  padding: 0.5rem 2rem;
+  font-size: 2.2rem;
+  color: white;
+  position: relative;
+  text-decoration: none;
+}
+
+.menu-content ul li a:hover {
+  background-color: #b80d0d;
+  border-radius: 0.75rem;
+}
+
+.bg-content {
+  background-image: url(/IMAGE/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section {
+  min-height: 100vh;
+  background-color: #0f110f;
+}
+
+.section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin: auto;
+}
+
+.section-bg {
+  max-width: 100vw;
+  background-image: url(/IMAGE/section-bg.svg);
+}
+
+.section-container aside h1 {
+  color: white;
+  font-size: 6.5rem;
+}
+
+.section-container aside p {
+  color: white;
+  font-size: 4.75rem;
+  text-align: center;
+}
+
+.section-container aside p a {
+  background-color: #b80d0d;
+  text-decoration: none;
+  color: white;
+  padding: 0.75rem 1.75rem;
+  border-radius: 0.5rem;
+  font-size: 2.25rem;
+}
+
+.section-container aside p a:hover {
+  background-color: #f11616;
+}
+
+#em {
+  font-weight: bold;
+  font-size: 6rem;
+}
+
+.menu-spacing {
+  padding-top: 10rem;
+}
+
+.section div h2 {
+  color: #fff;
+  font-size: 6rem;
+  padding-left: 6rem;
+}
+
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 6rem;
+  gap: 3rem;
+  counter-reset: grid-counter;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 37rem;
+  max-height: 37rem;
+  overflow: hidden;
+  flex-direction: row;
+}
+
+.grid img {
+  height: 33rem;
+  align-items: center;
+}
+
+.grid p {
+  color: white;
+  margin-left: 1rem;
+  text-align: start;
+  font-size: 1.15rem;
+}
+
+.grid a {
+  background-color: #b80d0d;
+  padding: 0.5rem 2rem;
+  /* margin: 3rem 2rem; */
+  align-items: center;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.grid a:hover {
+  background-color: #f11616;
+}
+
+.about h1 {
+  color: white;
+  margin-top: 3rem;
+  font-size: 5.5rem;
+}
+
+.about p {
+  color: white;
+  font-size: 2.25rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.about p strong {
+  font-size: 2.75rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.form input {
+  height: 5rem;
+  width: 40rem;
+}
+
+.form input::placeholder {
+  font-size: 1.75rem;
+  padding-left: 1rem;
+  color: rgb(201, 201, 201);
+}
+
+.form label {
+  color: white;
+  font-size: 2rem;
+  margin-left: 1.5rem;
+  background-color: #b80d0d;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+}
+
+.form label:hover {
+  background-color: #f11616;
+  cursor: pointer;
+}
