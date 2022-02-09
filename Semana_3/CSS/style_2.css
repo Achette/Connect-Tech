@@ -21,9 +21,7 @@ body {
 .header-container {
   max-width: 100vw;
   height: 20rem;
-  background-image: url(/IMAGE/movies/TC.jpg);
   background-size: cover;
-  background-position-y: -105rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -31,21 +29,57 @@ body {
   z-index: 1;
 }
 
+._1917 {
+  background-image: url(/IMAGE/movies/19711.jpg);
+  background-position-y: -12rem;
+}
+
+.AQP {
+  background-image: url(/IMAGE/movies/AQP.jpg);
+  background-position-y: -28rem;
+}
+
+.ER2 {
+  background-image: url(/IMAGE/movies/ER.png);
+  background-position-y: -21rem;
+}
+
+.GOT {
+  background-image: url(/IMAGE/movies/GOT2.jpg);
+  background-position-y: -130rem;
+}
+
+.Crown {
+  background-image: url(/IMAGE/movies/TC.jpg);
+  background-position-y: -105rem;
+}
+
+.Arrow {
+  background-image: url(/IMAGE/movies/arrow.jpg);
+  background-position-y: -11.5rem;
+}
+
 .menu-nav-content {
-  padding-top: 20rem;
+  padding-top: 20.5rem;
   background-color: #0f110f;
   width: 140rem;
   margin: 0 auto;
 }
 
 .menu-nav-content ul {
-    list-style: none; 
+  list-style: none;
 }
 
 .menu-nav-content ul li a {
   text-decoration: none;
   font-size: 1.5rem;
   color: white;
+}
+
+.menu-nav-content ul li a:hover {
+  background-color: #f11616;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.5rem;
 }
 
 .section-container {
